@@ -20,7 +20,8 @@ int main()
 	-> South         6th bit
 	-> South-West    7th bit
 	-> West          8th bit */
-    
+
+	
 	int8_t grid[ROW][COL] = 
 	{ 
 		{ (int8_t)56, (int8_t)248, (int8_t)248, (int8_t)248, (int8_t)248, (int8_t)240, (int8_t)8  , (int8_t)152, (int8_t)184, (int8_t)224 }, 

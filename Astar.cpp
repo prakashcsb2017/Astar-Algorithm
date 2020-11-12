@@ -6,9 +6,20 @@ using namespace std;
 // Driver program to test above function 
 int main() 
 { 
-	/* Description of the Grid- 
-	1--> The cell is not blocked 
-	0--> The cell is blocked */
+ /* Description of the Grid- 
+	Since every block has 8 possible neighbor, 
+	hence 8 bit is used to resemble whether 
+	a block has a reachable neighbor or not . If the bit is
+	1 means a block is reachable from that particular
+	block else if 0 then it is unreachable.
+	-> North-west    1st bit
+	-> North		 2nd bit
+	-> North-East    3rd bit
+	-> East          4th bit
+	-> South-East    5th bit
+	-> South         6th bit
+	-> South-West    7th bit
+	-> West          8th bit */
     
 	int8_t grid[ROW][COL] = 
 	{ 
